@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<fieldset>
+    <legend>Kiểm Tra BMI</legend>
+    <table>
+        <tr>
+            <th class="row">Chiều Cao:</th>
+            <td><input type="number" id="cm" placeholder="Tính = Centimet"> Centimet</td>
+            <td rowspan="3" id="resule"></td>
+        </tr>
+        <tr>
+            <th class="row">Cân Nặng:</th>
+            <td><input type="number" id="kg" placeholder="Tính Bằng Kg"> Kilogam</td>
+        </tr>
+        <tr>
+            <td class="row">
+                <button type="button" onclick="check()">Run</button>
+            </td>
+            <td><p id="resuleBMI">Hiển Thị</p></td>
+        </tr>
+    </table>
+</fieldset>
+<script src="app.js"></script>
+</body>
+</html>

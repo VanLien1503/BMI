@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    height: 500px;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    width: 500px;
+    height: 530px;
+}
+
+#resule {
+    width: 200px;
+    height: 500px;
+}
+
+#resuleBMI {
+    width: 220px;
+}
+
+.row {
+    background: orange;
+    color: blue;
+}
